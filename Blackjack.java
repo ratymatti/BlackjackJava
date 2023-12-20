@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BlackJack {
+public class Blackjack {
 
     public static Scanner scanner = new Scanner(System.in);
 
