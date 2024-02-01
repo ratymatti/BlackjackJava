@@ -35,7 +35,7 @@ public class Blackjack {
 
                 System.out.println("\nThe dealer shows \n" + GetCardString.cardString(dealerCard1) + "\nand has a card facing down\n" + GetCardString.faceDown());
 
-                while (true && userHandValue < 21) {
+                while (userHandValue < 21) {
                     String isHitOrStay = BlackjackFunctions.hitOrStay(scanner);
 
                     if (isHitOrStay.equals("stay")) {
