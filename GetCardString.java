@@ -104,6 +104,7 @@ public class GetCardString {
                 return "This should never run.";
         }
     }
+    
     public static String faceDown() {
         return
         "   _____\n"+
